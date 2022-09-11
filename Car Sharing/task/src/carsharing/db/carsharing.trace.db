@@ -1,0 +1,237 @@
+2022-09-10 19:19:29 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+); [42101-200]
+2022-09-10 19:19:29 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (
+  ID int NOT NULL,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+); [42101-200]
+2022-09-10 19:19:29 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+); [42101-200]
+2022-09-10 19:19:29 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (
+  ID int NOT NULL,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+); [42101-200]
+2022-09-10 19:19:29 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+); [42101-200]
+2022-09-10 19:19:29 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (
+  ID int NOT NULL,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+); [42101-200]
+2022-09-10 19:22:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+); [42101-200]
+2022-09-10 19:22:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (
+  ID int NOT NULL,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+); [42101-200]
+2022-09-10 19:22:48 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+); [42101-200]
+2022-09-10 19:22:48 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (
+  ID int NOT NULL,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+); [42101-200]
+2022-09-10 19:22:49 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+); [42101-200]
+2022-09-10 19:22:49 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (
+  ID int NOT NULL,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+); [42101-200]
+2022-09-10 20:24:14 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO CUSTOMER(NAME) VALUES (FIRST CUSTOMER[*]);"; expected "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO CUSTOMER(NAME) VALUES (First customer); [42001-200]
+2022-09-10 20:27:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+); [42101-200]
+2022-09-10 20:27:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (
+  ID int AUTO_INCREMENT,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+); [42101-200]
+2022-09-10 20:27:09 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+); [42101-200]
+2022-09-10 20:27:10 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (
+  ID int AUTO_INCREMENT,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+); [42101-200]
+2022-09-10 20:27:10 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+); [42101-200]
+2022-09-10 20:27:10 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" already exists; SQL statement:
+CREATE TABLE CAR (
+  ID int AUTO_INCREMENT,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+); [42101-200]
+2022-09-10 20:28:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+);
+"; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+);
+ [42001-200]
+2022-09-10 20:28:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] CAR (
+  ID INT AUTO_INCREMENT,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` INT NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+);
+"; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST CAR (
+  ID int AUTO_INCREMENT,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+);
+ [42001-200]
+2022-09-10 20:28:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+);
+"; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+);
+ [42001-200]
+2022-09-10 20:28:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] CAR (
+  ID INT AUTO_INCREMENT,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` INT NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+);
+"; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST CAR (
+  ID int AUTO_INCREMENT,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+);
+ [42001-200]
+2022-09-10 20:29:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+);
+"; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST `COMPANY` (
+  `ID` INT(20) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(20) NOT NULL UNIQUE,
+  PRIMARY KEY (`ID`)
+);
+ [42001-200]
+2022-09-10 20:29:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] CAR (
+  ID INT AUTO_INCREMENT,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` INT NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+);
+"; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST CAR (
+  ID int AUTO_INCREMENT,
+  NAME VARCHAR(20) UNIQUE NOT NULL,
+  `COMPANY_ID` int NOT NULL,
+  PRIMARY KEY (ID),
+  FOREIGN KEY (`COMPANY_ID`) REFERENCES COMPANY(ID)
+);
+ [42001-200]
